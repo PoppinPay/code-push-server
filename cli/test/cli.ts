@@ -5,7 +5,7 @@ import * as assert from "assert";
 import * as sinon from "sinon";
 import Q = require("q");
 import * as path from "path";
-import * as codePush from "../script/types";
+import * as codePush from "@poppinpay/code-push.types";
 import * as cli from "../script/types/cli";
 import * as cmdexec from "../script/command-executor";
 import * as os from "os";

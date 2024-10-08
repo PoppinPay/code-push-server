@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-import { UpdateCheckResponse, UpdateCheckRequest, DeploymentStatusReport, DownloadReport } from "../script/types/rest-definitions";
+import { UpdateCheckResponse, UpdateCheckRequest, DeploymentStatusReport, DownloadReport } from "@poppinpay/code-push.types";
 
 export module Http {
   export const enum Verb {

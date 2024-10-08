@@ -7,7 +7,7 @@ import * as http from "http";
 
 import * as acquisitionSdk from "../script/acquisition-sdk";
 import * as mockApi from "./acquisition-rest-mock";
-import * as rest from "../script/types/rest-definitions";
+import * as rest from "@poppinpay/code-push.types";
 
 var latestPackage: rest.UpdateCheckResponse = clone(mockApi.latestPackage);
 

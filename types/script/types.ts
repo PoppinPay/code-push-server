@@ -13,6 +13,10 @@ export {
   PackageInfo,
   AccessKey as ServerAccessKey,
   UpdateMetrics,
+  UpdateCheckResponse, 
+  UpdateCheckRequest, 
+  DeploymentStatusReport, 
+  DownloadReport
 } from "../script/types/rest-definitions";
 
 export interface CodePushError {

@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-import AccountManager = require("../management-sdk");
+import AccountManager = require("@poppinpay/code-push.management-sdk");
 
 export enum CommandType {
   accessKeyAdd,

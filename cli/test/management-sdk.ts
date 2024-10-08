@@ -4,7 +4,7 @@
 import * as assert from "assert";
 import * as Q from "q";
 
-import AccountManager = require("../script/management-sdk");
+import AccountManager = require("@poppinpay/code-push.management-sdk");
 
 var request = require("superagent");
 

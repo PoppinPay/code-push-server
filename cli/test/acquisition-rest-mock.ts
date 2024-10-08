@@ -5,7 +5,7 @@ import * as express from "express";
 import * as querystring from "querystring";
 
 import * as acquisitionSdk from "../script/acquisition-sdk";
-import * as rest from "../script/types/rest-definitions";
+import * as rest from "@poppinpay/code-push.types";
 
 export var validDeploymentKey = "asdfasdfawerqw";
 export var latestPackage = <rest.UpdateCheckResponse>{

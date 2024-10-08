@@ -1,26 +1,21 @@
 {
-  "name": "@poppinpay/code-push-cli",
+  "name": "@poppinpay/code-push.management-sdk",
   "version": "0.0.2",
-  "description": "Management CLI for the CodePush service",
-  "main": "./script/cli.js",
+  "description": "Management SDK for the CodePush service",
+  "main": "./script/sdk.js",
   "scripts": {
-    "start": "node ./bin/script/cli.js",
     "build": "tsc",
     "prettier": "prettier --write \"./**/*.ts\"",
     "lint": "npx eslint ./script/**/*.ts",
     "lint:fix": "npx eslint ./script/**/*.ts --fix"
   },
-  "bin": {
-    "code-push-standalone": "./bin/script/cli.js"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/code-push-server"
+    "url": "https://github.com/PoppinPay/code-push-server"
   },
   "author": "Microsoft",
   "dependencies": {
     "@poppinpay/code-push.types": "0.0.2",
-    "@poppinpay/code-push.management-sdk": "0.0.2",
     "backslash": "^0.2.0",
     "chalk": "^4.1.2",
     "cli-table": "^0.3.11",

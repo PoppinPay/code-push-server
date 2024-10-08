@@ -26,7 +26,7 @@ import {
   PackageInfo,
   ServerAccessKey,
   Session,
-} from "./types";
+} from "@poppinpay/code-push.types";
 
 const packageJson = require("../../package.json");
 

@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-import AccountManager = require("./management-sdk");
+import AccountManager = require("@poppinpay/code-push.management-sdk");
 const childProcess = require("child_process");
 import debugCommand from "./commands/debug";
 import * as fs from "fs";
@@ -35,7 +35,7 @@ import {
   PackageInfo,
   Session,
   UpdateMetrics,
-} from "../script/types";
+} from "@poppinpay/code-push.types";
 
 const configFilePath: string = path.join(process.env.LOCALAPPDATA || process.env.HOME, ".code-push.config");
 const emailValidator = require("email-validator");
