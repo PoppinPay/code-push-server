@@ -1,5 +1,5 @@
 {
-  "name": "code-push-server",
+  "name": "@poppinpay/code-push-server",
   "version": "0.0.1",
   "description": "Source code for the CodePush service API",
   "main": "./script/server.js",
